@@ -13,6 +13,14 @@ function App() {
         <Avatar alt="Leon profile pic" sx={{ width: 300, height: 300 }} src="/Me.jpg" />
         <h1 style={{ color: "#32364F" }}> Lam </h1>
       </Stack>
+
+      <section className="timeline">
+        <div className="timeline left"> Project 1 </div>
+        <div className="timeline right"> Project 2 </div>
+        <div className="timeline left"> Project 3</div>
+        <div className="timeline right"> Project 4</div>
+        <div className="timeline left">Project 5 </div>
+      </section>
     </div >
   );
 }
