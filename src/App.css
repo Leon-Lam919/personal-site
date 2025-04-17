@@ -1,1 +1,35 @@
+.project{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+  width: 100%;
+}
 
+.project::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #666;
+  transform: translateX(-50%);
+}
+
+.project-item{
+  max-width: cal(50% - 20px);
+  overflow-wrap: break-word;
+}
+
+.project-left {
+  margin-right: 200px;
+  text-align:right;
+}
+
+.project-right{
+  margin-left: 120px;
+  text-align: left;
+}
