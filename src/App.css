@@ -20,16 +20,16 @@
 }
 
 .project-item{
-  max-width: cal(50% - 20px);
+  width: calc(50% - 20px);
   overflow-wrap: break-word;
 }
 
 .project-left {
-  margin-right: 200px;
-  text-align:right;
+  align-self: flex-start;
+  text-align: right;
 }
 
-.project-right{
-  margin-left: 120px;
+.project-right {
+  align-self: flex-end;
   text-align: left;
 }
