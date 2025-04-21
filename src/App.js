@@ -18,9 +18,13 @@ function App() {
         <div className="project-item project-left">
           <h3 className='project-title'>SmileWorks</h3>
           <h5 className='project-title'>Dental clinic Management system</h5>
-          <p className='project-title'>
-            Developed a scalable, multi-tenant web application using <b>Next.js</b>, <b>TypeScript</b>, and <b>Tailwind CSS </b> for a responsive and modern frontend experience, paired with Express.js for backend development and server configuration. Collaborated closely with the team to ensure clean architecture and maintainable code, adhering to best practices throughout. Engineered robust RESTful APIs, implemented secure JWT-based authentication, and managed backend operations including Linux-based server management for file handling, process monitoring, and user access. The project was designed with scalability in mind, allowing support for multiple organizations or user groups, and thoroughly tested using Postman for API reliability.
-          </p>
+          <p>A scalable, multi-tenant web appplication designed for dental clinics, featuring comprehensive tools for patient management, appointment scheduling, insurance verification, and inventory control. </p>
+          <ul>
+            <li><b>Backend: </b>Developed using <b>Express</b> and <b>MongoDB</b>, with a focus on designing efficient scehams and building secure, <b>JWT-authenticated</b> RESTful APIs</li>
+            <li><b>Frontend: </b> Built with <b>Next.js, TypeScript,</b>and <b>Tailwind CSS</b> for a responsive, modern user experience.</li>
+            <li><b>Testing: </b> Ensured API reliability through testing in <b>Postman</b>.</li>
+            <li><b>Collaboration: </b> Worked closely with a team and two team leads with decades of experience in industry to maintain clean archirecture and adhere to best practices.</li>
+          </ul>
         </div>
         <div className="project-item project-right">
           <h3 className='project-title'>Catafun </h3>
