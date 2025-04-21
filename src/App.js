@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 function App() {
   return (
     <div className="App" style={{
-      display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "100vh", gap: '2rem'
+      display: "flex", flexDirection: "column", alignItems: "center", height: "100vh", gap: '2rem'
     }} >
       <Stack direction="row" spacing={2} alignItems="center">
         <h1 style={{ color: "#32364F" }}> Leon </h1>
